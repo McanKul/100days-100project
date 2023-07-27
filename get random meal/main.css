@@ -1,0 +1,15 @@
+.my-container {
+ min-height: 100vh;
+}
+
+.aside-bar {
+ flex:1 1 40%
+}
+
+.main {
+ flex:11 60%;
+}
+
+iframe {
+ aspect-ratio: 4/2;
+}
