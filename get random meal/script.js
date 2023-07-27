@@ -39,7 +39,7 @@ function randomMealGenarator(myobj){
     <button class="btn btn-primary mx-auto">Get Meal 🍔</button> 
    </div>
   </div>
-  <div class="container d-flex my-3">
+  <div class="container d-md-flex my-3">
      <div class="aside-bar  d-flex flex-column">
       <img class="my-image w-100" src="${myobj.strMealThumb}">
       <p class="mt-3">
