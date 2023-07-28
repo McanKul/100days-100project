@@ -1,0 +1,106 @@
+*{
+ margin:0px;
+ padding:0px;
+}
+.baslık{
+ font-size: 2rem;
+}
+.baslık h4{
+ font-size: 2em;
+}
+
+button {
+ border:0;
+ background-color: rgb(255, 255, 255);
+ margin:1rem;
+ font-size: 3rem;
+}
+.fa-heart-o{
+ color:darkgreen;
+}
+.fa-smile-o {
+color:greenyellow;
+}
+
+.fa-meh-o {
+color:rgb(197, 245, 125);
+}
+
+.fa-frown-o{
+ color:rgb(240, 186, 85);
+}
+
+.fa-exclamation-triangle {
+ color:darkred;
+}
+h1 {
+ text-align: center;;
+}
+
+.aylar{
+ margin:2rem;
+}
+
+.hafta{
+ display: grid;
+ grid-template-columns: repeat(7, auto);
+ gap:5px;
+ row-gap: 1;
+}
+.hafta-gun{
+ text-align: center;
+ padding:1rem;
+}
+
+.ay{
+ display: grid;
+ grid-template-columns: repeat(7, auto);
+ gap:5px;
+ row-gap: 1;
+ 
+}
+
+.gun{
+ text-align: center;
+ padding:1rem;
+border-radius:50%;
+background-color: #f0f8ff;
+cursor:pointer;
+}
+
+.january .gun:first-child{
+ grid-column-start: 7;
+}
+.february .gun:first-child{
+ grid-column-start: 3;
+}
+.march .gun:first-child{
+ grid-column-start: 3;
+}
+.april .gun:first-child{
+ grid-column-start: 6;
+}
+.may .gun:first-child{
+ grid-column-start: 1;
+}
+.june .gun:first-child{
+ grid-column-start: 4;
+}
+.july .gun:first-child{
+ grid-column-start: 6;
+}
+.agust .gun:first-child{
+ grid-column-start: 2;
+}
+.september .gun:first-child{
+ grid-column-start: 5;
+}
+.octaber .gun:first-child{
+ grid-column-start: 7;
+}
+.novamber .gun:first-child{
+ grid-column-start: 3;
+}
+.december .gun:first-child{
+ grid-column-start: 5;
+}
