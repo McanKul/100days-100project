@@ -1,0 +1,127 @@
+* {
+ padding: 0%;
+ margin:0px;
+
+}
+
+body{
+ background-color: rgb(205, 203, 203);
+}
+
+.container{
+ width: 90%;
+ background-color: rgb(233, 235, 237);
+ display: flex;
+ flex-direction: column;
+}
+
+
+.row {
+ display: flex;
+ flex-direction:row;
+ align-items:center;
+ justify-content: center;
+
+}
+
+
+.box:nth-child(2n+1){
+ color: rgb(93, 91, 91);
+
+ width: 50%;
+ display:flex;
+ justify-content: end;
+ align-items: center;
+ position: relative;
+ aspect-ratio: 1/1;
+ height: auto;
+}
+
+.box.dark:nth-child(2n+1){
+
+ color: azure;
+ background-color: rgb(93, 91, 91);
+
+}
+.subheading{
+ display: block;
+position: absolute;
+text-align: center;
+width: 86%;
+align-self: flex-end;
+font-size: 3rem;
+margin-top: 2rem;
+}
+
+
+
+.box:nth-child(2n){
+ color: rgb(93, 91, 91);
+ aspect-ratio: 1/1;
+ height: auto;
+ width: 50%;
+ display:flex;
+ justify-content:start;
+ position: relative;
+ align-items: center;
+}
+
+.box.dark:nth-child(2n) {
+ aspect-ratio: 1/1;
+ height: auto;
+ color: azure;
+ background-color: rgb(93, 91, 91);
+ width: 50%;
+ justify-content:start;
+ display:flex;
+ align-items: center;
+}
+
+.number{
+ position: absolute;
+ font-size: 2400%;
+ align-self: center;
+ opacity: 0.5;
+margin-right: 30%;
+margin-left: 30%;
+
+}
+
+
+.name{
+ position: absolute;
+ align-self: flex-end;
+ align-content: center;
+ font-family: 'Holtwood One SC';
+ font-style: oblique;
+ font-weight: 700;
+ font-size: 5rem;
+}
+.hidden-big{
+ display:none;
+}
+
+.image{
+height:100%;
+ aspect-ratio: 1/1;
+ background-repeat: no-repeat;
+ background-size: cover;
+background-position: top right;
+}
+
+
+@media screen and (max-width:800px){
+.number{
+ font-size: 1200%;
+}
+}
+.heading{
+ font-family: 'Holtwood One SC';
+ font-style: oblique;
+ font-weight: 700;
+ font-size: 5rem;
+}
+
+ul{
+ list-style: none;
+}
