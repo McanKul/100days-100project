@@ -1,0 +1,23 @@
+*{
+ margin: 0;
+ padding:0;
+}
+
+.box{
+ width:80%;
+ height: 50vh;
+ display: flex;
+ justify-content: space-around;
+ 
+ flex-direction: column;
+ margin:10% 10%;
+ border:2px black solid;
+ padding: 10px 10px;
+
+ font-size: 2rem;
+ text-align: center;
+}
+
+
+
+
